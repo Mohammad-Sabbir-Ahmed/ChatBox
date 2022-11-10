@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_addIcon_option"
+        android:icon="@drawable/fab_add"
+        android:title="Add/Remove People">
+    </item>
+    <item
+        android:id="@+id/main_friendList_option"
+        android:icon="@drawable/fab_add"
+        android:title="See Group Member">
+    </item>
+</menu>

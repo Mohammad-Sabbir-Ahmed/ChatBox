@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_welcome2"
+    tools:context=".AccountActivity">
+
+    <TextView
+        android:id="@+id/Intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visit_profile_image"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_horizontal"
+        android:text="Welcome to Chat Box"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/New"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New to the app?"
+        android:layout_below="@+id/Intro"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="120dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="#2196F3"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/new_account_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_below="@+id/New"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:text="Create new account"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/inputs"/>
+    <TextView
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:layout_below="@+id/new_account_button"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="#03A9F4"
+        android:gravity="center_horizontal" />
+    <Button
+        android:id="@+id/login_account_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account"
+        android:padding="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:text="I have an account"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:background="@drawable/inputs">
+    </Button>
+
+</RelativeLayout>
